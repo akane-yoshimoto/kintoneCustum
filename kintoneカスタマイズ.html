@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_2.css">
+    <title>kintone</title>
+</head>
+<body>
+    <header>
+        <h1>kintoneで作成したアプリ</h1>
+    </header>
+
+    <main>
+        <p>前職で作成したアプリをほんの一部ですがご紹介させていただきます。<br>
+        個人情報等の関係で動画にできるアプリは限られていますが<br>
+        コードのリンクを貼らせていただきましたので可能な範囲でご覧ください</p>
+    </main>
+
+    <div class="wrap">
+        <div class="line">
+            <div class="app">
+                <h2>外出状況</h2>
+                <div class="version">
+                    <p>事務所が2階建てだったので、誰が在席中で誰が外出中かPC上でわかるようにするために作成しました。<br>
+                    登録時にクリック数が少ないほうがいいという要望があったので、ダイアログで登録ができるようにしました。IDを共有して使用していたのでレコードデータごとにボタンを設置してワンクリックで帰所登録できるようにしました。<br></p>
+                </div>
+                <video src="外出状況.mp4" controls></video>
+                <div class="link">
+                    <a href="https://github.com/akane-yoshimoto/Outing-situation/blob/main/%E5%A4%96%E5%87%BA%E7%8A%B6%E6%B3%81.js">GitHub</a>
+                </div>
+            </div>
+
+            <div class="app">
+            <h2>相続チェックリスト</h2>
+            <div class="version">
+                <p>相続の初回面談時に収集してほしい書類の一覧を渡さずに後日作成してご案内していましたが、その場でチェックリスト通りに質問して
+                    一覧表が出てくるようにしたら印刷するだけで済むので時間短縮になると思い作成しました。
+                    ヒアリングシートにもなりますし、渡したデータもkintoneに自動的に保存が出来て喜ばれました。</p>
+            </div>
+            <video src="相続チェックシート.mp4" controls></video>
+            <div class="link">
+                <a href="https://github.com/akane-yoshimoto/checkSeet/blob/main/checkSeet.js">GitHub</a>
+            </div>
+        </div>
+            
+        </div>
+
+        <div class="line">
+            <div class="app">
+                <h2>備品入出庫×備品在庫管理</h2>
+                <div class="version">
+                    <p>自家消費や関与先への販売等、全てエクセルで管理していたのでアプリ化しました。トップ画面を開いた時に在庫が一定数を下回っていないか確認し、該当があればアラートで知らせるような機能もつけたことで
+                    総務の担当者が在庫を見に行かなくても注文するタイミングがわかるようにしました。</p>
+                </div>
+                <div class="link">
+                    <a href="https://github.com/akane-yoshimoto/MailBook/blob/main/%E9%83%B5%E9%80%81%E7%B0%BF.js">GitHub</a>
+                </div>
+            </div>
+
+            <div class="app">
+                <h2>経理代行管理</h2>
+                <div class="version">
+                    <p>経理代行をしている関与先の日々の業務の管理のため、毎月の予定を一括で登録出来るようにして、期限当日の朝にはslackに通知が届くようにしました。
+                        業務を失念してしまったことがあり、卓上カレンダーにタスクを手書きしていると相談されたので、失念しないように期日の朝にはslackに通知がくるので担当者に大変喜ばれました。</p>
+                </div>
+                <div class="link">
+                    <a href="https://github.com/akane-yoshimoto/Acting">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>kintone</footer>
+
+</body>
+</html>
